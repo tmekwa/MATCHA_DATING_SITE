@@ -1,0 +1,30 @@
+* 
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#username, #password, #password_confirm, #email
+{
+	height: 50px;
+	padding: 9px 9px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+.aff_comme
+{
+	margin-left: 200px;
+}
+.lagalery
+{
+	margin-left: 40px;
+}
+input
+{
+	box-sizing: border-box;
+}
+input type['text']
+{
+	width: 50px;
+	height: 20px;
+}

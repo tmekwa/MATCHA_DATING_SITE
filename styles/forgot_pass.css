@@ -1,0 +1,25 @@
+.forgot
+{
+	height: 30px;
+	padding: 9px 9px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+input[type="text"]
+{
+	font-size: 25px;
+	padding: 5px;
+	height: 30px;
+	width: 300px;
+}
+
+input[type="submit"]
+{
+	height: 150px;
+	width: 150px;
+}
+body
+{
+	background-color: lightblue;
+}

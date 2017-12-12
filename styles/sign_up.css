@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+    color: lightblue;  
+    font: 1em/1.5 sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: steelblue;
+}
+
+form
+{
+    margin: 20px auto;
+    width: 320px;
+
+}
+
+input
+{
+    padding: 10px;
+    font-size: inherit;
+
+}
+
+input[type="text"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="password"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="email"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="radio"]
+{
+    margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child
+{
+    margin-left: 0;
+}
+
+input[type="submit"]
+{
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+}
+
+input[type="submit"]:focus
+{
+    width: 344px;
+    height: 45px;
+    border: solid;
+    background: white;
+    color: steelblue;
+}
+
+input:focus 
+{
+    background: white;
+}
+
+input[type="radio"]:checked + label
+{
+    font-weight: bold;
+
+}

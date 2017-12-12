@@ -1,0 +1,50 @@
+form
+{
+    margin: 20px auto;
+    width: 320px;
+
+}
+body
+{
+    background-color: lightblue;
+}
+input
+{
+    padding: 10px;
+    font-size: inherit;
+
+}
+input[type="radio"]
+{
+    margin: 0 8px 25px 18px;
+    font-size: 20px;
+}
+input[type="radio"]:first-child
+{
+    margin-left: 0;
+}
+input[type="radio"]:checked + label
+{
+    font-weight: bold;
+
+}
+
+input[type="text"]
+{
+	height: 100px;
+	width: 400px;
+}
+
+input[name="age"]
+{
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+
+}
+select
+{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
